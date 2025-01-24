@@ -40,7 +40,7 @@ const LoginPage = () => {
     } catch (error) {
       alert(error.message);
       console.log(error);
-      setIsLoading(false); // Reset loading state on error
+      setIsLoading(false); // Reset loading state on err
     }
   };
 
